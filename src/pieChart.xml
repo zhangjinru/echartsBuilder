@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<option>
+	<series>
+		<center>series[center,圆心坐标,text=-</center>
+		<radius>series[radius,内外半径,text=-</radius>
+		<startAngle>series[startAngle,开始角度,range=0-360-1</startAngle>
+		<clockWise>series[clockWise,是否顺时针,radio=true-false</clockWise>
+		<roseType>series[roseType,南丁格尔玫瑰图,select=radius-area</roseType>
+	    <selectOffset>series[selectOffset,扇区偏移量,range=0-20-1</selectOffset>
+	    <selectedMode>series[selectedMode,选中模式,select=true-false-single-multiple</selectedMode>
+	    <itemStyle-normal-label-show>series[itemStyle-normal-label-show,是否显示标签,radio=true-false</itemStyle-normal-label-show>
+	    <itemStyle-normal-label-position>series[itemStyle-normal-label-position,标签位置,select=outer-inner</itemStyle-normal-label-position>
+	    <itemStyle-normal-label-formatter>series[itemStyle-normal-label-formatter,标签格式,text=-</itemStyle-normal-label-formatter>
+	   <itemStyle-normal-labelLine-show>series[itemStyle-normal-labelLine-show,是否显示标签引线,radio=true-false</itemStyle-normal-labelLine-show>
+	   <itemStyle-normal-labelLine-length>series[itemStyle-normal-labelLine-length,引线长度,range=0-60-1</itemStyle-normal-labelLine-length>
+   	  <itemStyle-normal-labelLine-lineStyle-type>series[itemStyle-normal-labelLine-lineStyle-type,引线的类型,select=solid-dotted-dashed</itemStyle-normal-labelLine-lineStyle-type>
+	  <itemStyle-normal-labelLine-lineStyle-width>series[itemStyle-normal-labelLine-lineStyle-width,引线的宽度,range=0-10-1</itemStyle-normal-labelLine-lineStyle-width>
+	  <itemStyle-normal-labelLine-lineStyle-color>series[itemStyle-normal-labelLine-lineStyle-color,引线的颜色,color=-</itemStyle-normal-labelLine-lineStyle-color>
+	  <itemStyle-emphasis-label-show>series[itemStyle-emphasis-label-show,强调样式是否显示标签,radio=true-false</itemStyle-emphasis-label-show>
+	    <itemStyle-emphasis-label-position>series[itemStyle-emphasis-label-position,强调样式标签位置,select=outer-inner</itemStyle-emphasis-label-position>
+	    <itemStyle-emphasis-label-formatter>series[itemStyle-emphasis-label-formatter,强调样式标签格式,text=-</itemStyle-emphasis-label-formatter>
+	   <itemStyle-emphasis-labelLine-show>series[itemStyle-emphasis-labelLine-show,强调样式是否显示标签引线,radio=true-false</itemStyle-emphasis-labelLine-show>
+	   <itemStyle-emphasis-labelLine-length>series[itemStyle-emphasis-labelLine-length,强调样式引线长度,range=0-60-1</itemStyle-emphasis-labelLine-length>
+   	  <itemStyle-emphasis-labelLine-lineStyle-type>series[itemStyle-emphasis-labelLine-lineStyle-type,强调样式引线的类型,select=solid-dotted-dashed</itemStyle-emphasis-labelLine-lineStyle-type>
+	  <itemStyle-emphasis-labelLine-lineStyle-width>series[itemStyle-emphasis-labelLine-lineStyle-width,强调样式引线的宽度,range=0-10-1</itemStyle-emphasis-labelLine-lineStyle-width>
+	  <itemStyle-emphasis-labelLine-lineStyle-color>series[itemStyle-emphasis-labelLine-lineStyle-color,强调样式引线的颜色,color=-</itemStyle-emphasis-labelLine-lineStyle-color>
+	  </series>
+</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

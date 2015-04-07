@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<option>
+	<series>
+	<barGap>series[barGap,柱间的距离,text=-</barGap>
+	<barCategoryGap>series[barCategoryGap,类目柱间的距离,text=-</barCategoryGap>
+     <itemStyle-normal-label-show>series[itemStyle-normal-label-show,是否显示标签,radio=true-false</itemStyle-normal-label-show>
+     <itemStyle-normal-label-formatter>series[itemStyle-normal-label-formatter,标签格式,text=-</itemStyle-normal-label-formatter>
+	  <itemStyle-emphasis-label-show>series[itemStyle-emphasis-label-show,强调样式是否显示标签,radio=true-false</itemStyle-emphasis-label-show>
+	    <itemStyle-emphasis-label-formatter>series[itemStyle-emphasis-label-formatter,强调样式标签格式,text=-</itemStyle-emphasis-label-formatter>
+	  </series>
+</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

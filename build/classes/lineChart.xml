@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<option>
+	<series>
+	 <symbol>series[symbol,图形类型,select=circle-rectangle-triangle-diamond-emptyCircle-emptyRectangle-emptyTriangle-emptyDiamond</symbol>
+	<symbolSize>series[symbolSize,图形大小,range=0-12-1</symbolSize>
+<!-- 	<showAllSymbol>series[showAllSymbol,显示图标,radio=true-false</showAllSymbol> -->
+	 <smooth>series[smooth,平滑曲线,radio=true-false</smooth>
+     <itemStyle-normal-label-show>series[itemStyle-normal-label-show,是否显示标签,radio=true-false</itemStyle-normal-label-show>
+     <itemStyle-normal-label-formatter>series[itemStyle-normal-label-formatter,标签格式,text=-</itemStyle-normal-label-formatter>
+    <itemStyle-emphasis-label-show>series[itemStyle-emphasis-label-show,强调显示标签,radio=true-false</itemStyle-emphasis-label-show>
+	 <itemStyle-emphasis-label-formatter>series[itemStyle-emphasis-label-formatter,强调样式标签格式,text=-</itemStyle-emphasis-label-formatter>
+	  </series>
+</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

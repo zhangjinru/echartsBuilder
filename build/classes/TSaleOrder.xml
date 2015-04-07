@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="TSaleOrder">
+    <select id="selectId" parameterType="int" resultType="com.echartsBuilder.entity.TSaleOrder">
+        select * from `user` where id = #{id}
+    </select>
+    <select id= 'select_ex' parameterType="map" resultType="TSaleOrder">
+    	select sign_date as 'signDate',company_code as 'companyCode',prod_dept as 'prodDept' 
+        ,settle_user_ename as 'settleUserEname',prod_code as 'prodCode',shopsign as 'shopSign',order_wt as 'orderWt',wt_price as 'wtPrice',order_wt + wt_price as 'totalPrice'
+        from t_sale_order_test
+        <where>
+           <if test="sign_date != null">
+           		sign_date like #{signDate}
+           </if>
+       	   <if test="company_code != null">
+           		and company_code like #{companyCode}
+           </if>
+           <if test="prod_dept != null"> 
+           		and prod_dept like #{prodDept}
+           </if>
+            <if test="orderWt != null">
+           		and order_wt > #{orderWt}
+           </if>
+            <if test="id != null">
+           		and id = #{id}
+           </if>
+        </where>
+    </select>
+     <select id= 'select_ByCompanyData' parameterType="map" resultType="TSaleOrder">
+    	select sum(wt_price*order_wt) as 'totalPrice',
+    	substring(sign_date,1,7) as 'signDate',
+    	prod_dept as 'prodDept' 
+    	from t_sale_order_test 
+    <where>
+    	 <if test="signDate != null">
+           		 substring(sign_date,1,4) like #{signDate}
+           </if>
+       	   <if test="companyCode != null">
+           		and company_code like #{companyCode}
+           </if>
+           </where>
+        group by  substring(sign_date,1,7),prod_dept
+        order by prod_dept desc,substring(sign_date,1,7)
+    </select>
+    
+    <select id= 'test' parameterType="map" resultType="TSaleOrder">
+          select ${sql} from t_sale_order_test ${where} 
+    </select>
+    <select id = "select_dataStyle" parameterType="map" resultType = "TSaleOrder">
+	    select 
+	    ${tabulationItems}
+	    from 
+	    osv.t_sale_order_test
+	     <if test="where != null">
+	     ${where}
+	     </if>
+	    <if test="groupBy != null">
+	     ${groupBy}
+	     </if>
+	     <if test="orderBy != null">
+	     ${orderBy}
+	     </if>
+    </select>
+    <select id = "select_xAxis" parameterType="map" resultType = "TSaleOrder">
+	   select distinct ${xAxis} from t_sale_order_test 
+	    <if test="where != null">
+	     ${where}
+	     </if>
+    </select>
+</mapper>

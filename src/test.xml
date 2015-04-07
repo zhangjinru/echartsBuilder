@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<option>
+	<legend>
+		<show>legend-show,是否显示,radio=true-false</show>
+		<orient>legend-orient,布局方式,select=horizontal-vertical</orient>
+		<x>legend-x,水平位置,range=0-2000-1</x>
+		<y>legend-y,垂直位置,range=0-2000-1</y>
+		<backgroundColor>legend-backgroundColor,背景颜色,color=-</backgroundColor>
+		<borderColor>legend-borderColor,边框颜色,color=-</borderColor>
+		<borderWidth>legend-borderWidth,边框宽度,range=0-10-1</borderWidth>
+		<itemGap>legend-itemGap,每个图例的距离,range=5-20-1</itemGap>
+		<itemWidth>legend-itemWidth,图形宽度,range=10-50-1</itemWidth>
+		<itemHeight>legend-itemHeight,图形高度,range=10-50-1</itemHeight>
+		<selectedMode>legend-selectedMode,开关模式,select=single-multiple</selectedMode>
+	</legend>
+	<title>
+		<show>title-show,是否显示,radio=true-false</show>
+		<text>title-text,标题名称,text=-</text>
+		<link>title-link,超链接,text=-</link>
+		<target>title-target,链接打开位置,select=self-blank</target>
+		<subtext>title-subtext,副标题名称,text=-</subtext>
+		<sublink>title-sublink,副超链接,text=-</sublink>
+		<subtarget>title-subtarget,副链接打开位置,select=self-blank</subtarget>
+		<x>title-x,水平位置,range=0-2000-1</x>
+		<y>title-y,垂直位置,range=0-2000-1</y>
+		<textAlign>textAlign,水平对齐方式,select=left-right-center</textAlign>
+		<backgroundColor>title-backgroundColor,背景颜色,color=-</backgroundColor>
+		<borderColor>title-borderColor,边框颜色,color=-</borderColor>
+		<borderWidth>title-borderWidth,边框宽度,range=0-10-1</borderWidth>
+		<itemGap>title-itemGap,每个图例的距离,range=5-20-1</itemGap>
+		<textStyle-color>title-textStyle-color,标题字体颜色,color=-</textStyle-color>
+		<textStyle-fontFamily>title-textStyle-fontFamily,标题字体,select=Arial-Verdana</textStyle-fontFamily>
+		<textStyle-fontSize>title-textStyle-fontSize,标题字体字号,range=8-50-1</textStyle-fontSize>
+		<textStyle-fontStyle>title-textStyle-fontStyle,标题字体样式,select=normal-italic-oblique</textStyle-fontStyle>
+		<textStyle-fontWeight>title-textStyle-fontWeight,标题字体粗细,select=normal-bold-bolder-lighter</textStyle-fontWeight>
+		<subtextStyle-color>title-subtextStyle-color,副标题字体颜色,color=-</subtextStyle-color>
+		<subtextStyle-fontFamily>title-subtextStyle-fontFamily,副标题字体,select=Arial-Verdana</subtextStyle-fontFamily>
+		<subtextStyle-fontSize>title-subtextStyle-fontSize,副标题字体字号,range=8-50-1</subtextStyle-fontSize>
+		<subtextStyle-fontStyle>title-subtextStyle-fontStyle,副标题字体样式,select=normal-italic-oblique</subtextStyle-fontStyle>
+		<subtextStyle-fontWeight>title-subtextStyle-fontWeight,副标题字体粗细,select=normal-bold-bolder-lighter</subtextStyle-fontWeight>
+	</title>
+	<xAxis>
+		<show>xAxis[show,是否显示,radio=true-false</show>
+		<position>xAxis[position,位置,select=bottom-top</position>
+		<name>xAxis[name,坐标轴名称,text=-</name>
+		<nameLocation>xAxis[nameLocation,坐标轴位置,select=start-end</nameLocation>
+		<nameTextStyle-fontFamily>xAxis[nameTextStyle-fontFamily,名称字体,select=Arial-Verdana</nameTextStyle-fontFamily>
+		<nameTextStyle-fontSize>xAxis[nameTextStyle-fontSize,名称字体字号,range=8-50-1</nameTextStyle-fontSize>
+		<nameTextStyle-fontStyle>xAxis[nameTextStyle-fontStyle,名称字体样式,select=normal-italic-oblique</nameTextStyle-fontStyle>
+		<nameTextStyle-fontWeight>xAxis[nameTextStyle-fontWeight,名称字体粗细,select=normal-bold-bolder-lighter</nameTextStyle-fontWeight>
+		<boundaryGap>xAxis[boundaryGap,是否留空白,radio=true-false </boundaryGap>
+		<axisLine-show>xAxis[axisLine-show,轴线是否显示,radio=true-false</axisLine-show>
+		<axisLine-lineStyle-color>xAxis[axisLine-lineStyle-color,轴线的颜色,color=-</axisLine-lineStyle-color>
+		<axisLine-lineStyle-type>xAxis[axisLine-lineStyle-type,轴线的类型,select=solid-dotted-dashed</axisLine-lineStyle-type>
+		<axisLine-lineStyle-width>xAxis[axisLine-lineStyle-width,轴线的宽度,range=0-10-1</axisLine-lineStyle-width>
+		<axisTick-show>xAxis[axisTick-show,轴标记显示,radio=true-false</axisTick-show>
+		<axisTick-inside>xAxis[axisTick-inside,轴标记的是否在内部,radio=true-false</axisTick-inside>
+		<axisTick-length>xAxis[axisTick-length,轴标记的长度,range=1-10-1</axisTick-length>
+		<axisTick-lineStyle-color>xAxis[axisTick-lineStyle-color,轴标记的颜色,color=-</axisTick-lineStyle-color>
+		<axisLabel-show>xAxis[axisLabel-show,轴标记显示,radio=true-false</axisLabel-show>
+		<axisLabel-rotate>xAxis[axisLabel-rotate,标签旋转角度,range=0-90-1</axisLabel-rotate>
+		<axisLabel-margin>xAxis[axisLabel-margin,文本与轴的间距,range=0-10-1</axisLabel-margin>
+		<axisLabel-formatter>xAxis[axisLabel-formatter,轴文本格式器,text=-</axisLabel-formatter>
+		<axisLabel-textStyle-color>xAxis[axisLabel-textStyle-color,轴文本字体颜色,color=-</axisLabel-textStyle-color>
+		<axisLabel-textStyle-fontFamily>xAxis[axisLabel-textStyle-fontFamily,轴文本字体,select=Arial-Verdana</axisLabel-textStyle-fontFamily>
+		<axisLabel-textStyle-fontSize>xAxis[axisLabel-textStyle-fontSize,轴文本字体字号,range=8-50-1</axisLabel-textStyle-fontSize>
+		<axisLabel-textStyle-fontStyle>xAxis[axisLabel-textStyle-fontStyle,轴文本字体样式,select=normal-italic-oblique</axisLabel-textStyle-fontStyle>
+		<axisLabel-textStyle-fontWeight>xAxis[axisLabel-textStyle-fontWeight,轴文本字体粗细,select=normal-bold-bolder-lighter</axisLabel-textStyle-fontWeight>
+		<splitLine-show>xAxis[splitLine-show,分割线显示,radio=true-false</splitLine-show>
+		<splitLine-lineStyle-color>xAxis[splitLine-lineStyle-color,分割线的颜色,color=-</splitLine-lineStyle-color>
+		<splitLine-lineStyle-type>xAxis[splitLine-lineStyle-type,分割线的类型,select=solid-dotted-dashed</splitLine-lineStyle-type>
+		<splitLine-lineStyle-width>xAxis[splitLine-lineStyle-width,分割线的宽度,range=0-10-1</splitLine-lineStyle-width>
+	<!-- 	<splitArea-areaStyle-color>xAxis[splitArea-areaStyle-color,区域的颜色,color=-</splitArea-areaStyle-color>
+ -->	</xAxis>
+	<yAxis>
+		<show>yAxis[show,是否显示,radio=true-false</show>
+		<position>yAxis[position,位置,select=left-right</position>
+		<name>yAxis[name,坐标轴名称,text=-</name>
+		<nameLocation>yAxis[nameLocation,坐标轴位置,select=start-end</nameLocation>
+		<nameTextStyle-fontFamily>yAxis[nameTextStyle-fontFamily,名称字体,select=Arial-Verdana</nameTextStyle-fontFamily>
+		<nameTextStyle-fontSize>yAxis[nameTextStyle-fontSize,名称字体字号,range=8-50-1</nameTextStyle-fontSize>
+		<nameTextStyle-fontStyle>yAxis[nameTextStyle-fontStyle,名称字体样式,select=normal-italic-oblique</nameTextStyle-fontStyle>
+		<nameTextStyle-fontWeight>yAxis[nameTextStyle-fontWeight,名称字体粗细,select=normal-bold-bolder-lighter</nameTextStyle-fontWeight>
+		<boundaryGap>yAxis[boundaryGap,是否留空白,radio=true-false </boundaryGap>
+		<axisLine-show>yAxis[axisLine-show,轴线是否显示,radio=true-false</axisLine-show>
+		<axisLine-lineStyle-color>yAxis[axisLine-lineStyle-color,轴线的颜色,color=-</axisLine-lineStyle-color>
+		<axisLine-lineStyle-type>yAxis[axisLine-lineStyle-type,轴线的类型,select=solid-dotted-dashed</axisLine-lineStyle-type>
+		<axisLine-lineStyle-width>yAxis[axisLine-lineStyle-width,轴线的宽度,range=0-10-1</axisLine-lineStyle-width>
+		<axisTick-show>yAxis[axisTick-show,轴标记显示,radio=true-false</axisTick-show>
+		<axisTick-inside>yAxis[axisTick-inside,轴标记的是否在内部,radio=true-false</axisTick-inside>
+		<axisTick-length>yAxis[axisTick-length,轴标记的长度,range=1-10-1</axisTick-length>
+		<axisTick-lineStyle-color>yAxis[axisTick-lineStyle-color,轴标记的颜色,color=-</axisTick-lineStyle-color>
+		<axisLabel-show>yAxis[axisLabel-show,轴标记显示,radio=true-false</axisLabel-show>
+		<axisLabel-rotate>yAxis[axisLabel-rotate,标签旋转角度,range=0-90-1</axisLabel-rotate>
+		<axisLabel-margin>yAxis[axisLabel-margin,文本与轴的间距,range=0-10-1</axisLabel-margin>
+		<axisLabel-formatter>yAxis[axisLabel-formatter,轴文本格式器,text=-</axisLabel-formatter>
+		<axisLabel-textStyle-color>yAxis[axisLabel-textStyle-color,轴文本字体颜色,color=-</axisLabel-textStyle-color>
+		<axisLabel-textStyle-fontFamily>yAxis[axisLabel-textStyle-fontFamily,轴文本字体,select=Arial-Verdana</axisLabel-textStyle-fontFamily>
+		<axisLabel-textStyle-fontSize>yAxis[axisLabel-textStyle-fontSize,轴文本字体字号,range=8-50-1</axisLabel-textStyle-fontSize>
+		<axisLabel-textStyle-fontStyle>yAxis[axisLabel-textStyle-fontStyle,轴文本字体样式,select=normal-italic-oblique</axisLabel-textStyle-fontStyle>
+		<axisLabel-textStyle-fontWeight>yAxis[axisLabel-textStyle-fontWeight,轴文本字体粗细,select=normal-bold-bolder-lighter</axisLabel-textStyle-fontWeight>
+		<splitLine-show>yAxis[splitLine-show,分割线显示,radio=true-false</splitLine-show>
+		<splitLine-lineStyle-color>yAxis[splitLine-lineStyle-color,分割线的颜色,color=-</splitLine-lineStyle-color>
+		<splitLine-lineStyle-type>yAxis[splitLine-lineStyle-type,分割线的类型,select=solid-dotted-dashed</splitLine-lineStyle-type>
+		<splitLine-lineStyle-width>yAxis[splitLine-lineStyle-width,分割线的宽度,range=0-10-1</splitLine-lineStyle-width>
+		<!-- <splitArea-areaStyle-color>yAxis[splitArea-areaStyle-color,区域的颜色,color=-</splitArea-areaStyle-color>
+ -->	</yAxis>
+	<toolbox>
+		<show>toolbox-show,是否显示,radio=true-false</show>
+		<orient>toolbox-orient,布局方式,select=horizontal-vertical</orient>
+		<x>toolbox-x,水平位置,range=0-2000-1</x>
+		<y>toolbox-y,垂直位置,range=0-2000-1</y>
+		<backgroundColor>toolbox-backgroundColor,背景颜色,color=-</backgroundColor>
+		<borderColor>toolbox-borderColor,边框颜色,color=-</borderColor>
+		<borderWidth>toolbox-borderWidth,边框宽度,range=0-10-1</borderWidth>
+		<itemGap>toolbox-itemGap,图标的距离,range=5-20-1</itemGap>
+		<itemSize>toolbox-itemSize,图标的大小,range=10-50-1</itemSize>
+		<showTitle>toolbox-showTitle,文字提示,radio=true-false</showTitle>
+		<textStyle-color>toolbox-textStyle-color,提示文本字体颜色,color=-</textStyle-color>
+		<textStyle-fontFamily>toolbox-textStyle-fontFamily,提示文本字体,select=Arial-Verdana</textStyle-fontFamily>
+		<textStyle-fontSize>toolbox-textStyle-fontSize,提示文本字体字号,range=8-50-1</textStyle-fontSize>
+		<textStyle-fontStyle>toolbox-textStyle-fontStyle,提示文本字体样式,select=normal-italic-oblique</textStyle-fontStyle>
+		<textStyle-fontWeight>toolbox-textStyle-fontWeight,提示文本字体粗细,select=normal-bold-bolder-lighter</textStyle-fontWeight>
+		<feature-mark-show>toolbox-feature-mark-show,是否显示辅助线,radio=true-false</feature-mark-show>
+		<feature-dataZoom-show>toolbox-feature-dataZoom-show,是否显示视图缩放,radio=true-false</feature-dataZoom-show>
+		<feature-dataView-show>toolbox-feature-dataView-show,是否显示数据视图,radio=true-false</feature-dataView-show>
+		<feature-magicType-show>toolbox-feature-magicType-show,是否显示动态类型切换,radio=true-false</feature-magicType-show>
+		<feature-magicType-type>toolbox-feature-magicType-type,动态类型切换的类型,text=-</feature-magicType-type>
+		<feature-saveAsImage-show>toolbox-feature-saveAsImage-show,是否显示保存为图片,radio=true-false</feature-saveAsImage-show>
+	    <feature-saveAsImage-type>toolbox-feature-saveAsImage-type,保存图片的格式,select=jpeg-png</feature-saveAsImage-type>
+	</toolbox>
+	<tooltip>
+	  <show>tooltip-show,是否显示提示框,radio=true-false</show>
+		<trigger>tooltip-trigger,触发类型,select= item,axis</trigger>	
+		<formatter>tooltip-formatter,内容格式,text=-</formatter>
+		<showDelay>tooltip-showDelay,显示延迟 ,range=0-50-1</showDelay>
+		<hideDelay>tooltip-hideDelay,隐藏延迟,range=20-100-1</hideDelay>
+		<backgroundColor>tooltip-backgroundColor,背景,color=-</backgroundColor>
+		<borderColor>tooltip-borderColor,线框颜色,color=-</borderColor>
+		<borderRadius>tooltip-borderRadius,提示框圆角,range=0-5-1</borderRadius>
+		<borderWidth>tooltip-borderWidth,提示框线宽,range=0-10-1</borderWidth>
+		<textStyle-color>tooltip-textStyle-color,提示文本字体颜色,color=-</textStyle-color>
+		<textStyle-fontFamily>tooltip-textStyle-fontFamily,提示文本字体,select=Arial-Verdana</textStyle-fontFamily>
+		<textStyle-fontSize>tooltip-textStyle-fontSize,提示文本字体字号,range=8-50-1</textStyle-fontSize>
+		<textStyle-fontStyle>tooltip-textStyle-fontStyle,提示文本字体样式,select=normal-italic-oblique</textStyle-fontStyle>
+		<textStyle-fontWeight>tooltip-textStyle-fontWeight,提示文本字体粗细,select=normal-bold-bolder-lighter</textStyle-fontWeight>
+	</tooltip>
+</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
