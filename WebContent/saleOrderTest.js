@@ -1,4 +1,5 @@
 $(function(){
+	alert("happy to learn intellij");
 });
 
 //路径配置
